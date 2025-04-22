@@ -7,3 +7,12 @@
 export interface ActionsUseReducerTutorial{
     type: string
 }
+
+//Para el axio
+export interface FormatoStringAxios{
+  id: number
+  body: string
+  email: string
+  name: string
+  postId: number
+}
