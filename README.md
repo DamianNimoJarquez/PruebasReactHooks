@@ -47,6 +47,14 @@ En otros tutoriales lo he usado para coger imformación de otro sitio para carga
 
 Acceder para manipular elementos del Dom. En el tutorial se usa para activar el focus del inputo cuando se pulsa en el botón mediante la variable asignada a ***ref*** del ***input***. He modificado el código para que además de hacer focus cambie el texto de la ***h4***. El código se puede ver en [UR-1](./src/assets/documentation/CodesUseRef.md#ur1).
 
+### UseLayoutEffect
+
+Se ejecuta antes que useEffect. Se ejecuta antes de que todo se visualice.
+
+Normalmente se usa cuando se quiere cambiar algo antes de mostrárselo al usuario.
+
+En el código lo que se hace es comprobar esto. con ***useEffect*** se cambia el nombre al cargarse el input, pero antes con ***useLayoutEffect*** se muestra por consola el valor que tenía al crearse [UL-2](./src/assets/documentation/CdodesUsesLayoutEffect.md#ul2)
+
 
 ## Tailwind CSS
 <a id="textcss1"></a>

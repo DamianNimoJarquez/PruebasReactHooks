@@ -1,4 +1,5 @@
 import EffectsTutorial from "./assets/hooks/useeffects/EffectsTutorial"
+import LayoutEffectTutorial from "./assets/hooks/useLayoutEffects/LayoutEffectTutoria"
 import ReduceTutorial from "./assets/hooks/usereduces/ReduceTutorial"
 import RefsTutorial from "./assets/hooks/useRefs/RefsTutorial"
 import StateTutorial from "./assets/hooks/usestates/StateTutorial"
@@ -13,6 +14,7 @@ function App() {
     <ReduceTutorial />
     <EffectsTutorial />
     <RefsTutorial />
+    <LayoutEffectTutorial />
     </>
   )
 }
