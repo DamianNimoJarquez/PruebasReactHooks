@@ -41,6 +41,11 @@ En el tutorial se utiliza para cargar el primer elemento del get realizado con a
 
 Se ha modificado el tutorial para poner un contador y que cuando se incremente o decremente, se muestre el elemento del array del get con ese valor usando también useEffect, código [UE-4](./src/assets/documentation/CodesUseEffect.md#ue4), y reutilizando el código de useState pero dándole formato de grid, código [UE-5](./src/assets/documentation/CodesUseEffect.md#ue5).
 
+En otros tutoriales lo he usado para coger imformación de otro sitio para cargarlo en la web, como en el tutorial del blog.
+
+## UseRef
+
+Acceder para manipular elementos del Dom. En el tutorial se usa para activar el focus del inputo cuando se pulsa en el botón mediante la variable asignada a ***ref*** del ***input***. He modificado el código para que además de hacer focus cambie el texto de la ***h4***. El código se puede ver en [UR-1](./src/assets/documentation/CodesUseRef.md#ur1).
 
 
 ## Tailwind CSS
