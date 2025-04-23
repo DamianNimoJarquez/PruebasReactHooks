@@ -81,6 +81,10 @@ Para evitar esto, en vez de llamar a la función directamente usaremos el ***use
 
 Fundamental para el juego para que no se repitan los algoritmos que crearé.
 
+## UseCallback
+
+Al parecer es muy similar a ***useMemo***. La diferencia es que no se guarda el valor que devuelve en una variable si no que se guarda la variable en sí.
+
 ## Tailwind CSS
 <a id="textcss1"></a>
 

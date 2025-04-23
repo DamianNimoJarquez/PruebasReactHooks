@@ -13,7 +13,7 @@ const LayoutEffectTutorial = () => {
         <>
         <Cabecera titulo="UseLayoutEffect Tutorial" />
         <div className="contenidoUseState">
-            <input className="inputs" value={"Nombre"} ref={inputRef} />
+            <input className="inputs" onChange={()=>{}} value={"Nombre"} ref={inputRef} />
         </div>
         </>
      );

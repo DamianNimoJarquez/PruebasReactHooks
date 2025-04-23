@@ -1,3 +1,4 @@
+import CallbackTutorial from "./assets/hooks/usecallback/CallbackTutorial"
 import UseContextsTutorial from "./assets/hooks/usecontext/UseContextsTutorial"
 import EffectsTutorial from "./assets/hooks/useeffects/EffectsTutorial"
 import ImperativeHandleTutorial from "./assets/hooks/useimperativehandles/ImperativeHandleTutorial"
@@ -21,6 +22,7 @@ function App() {
     <ImperativeHandleTutorial />
     <UseContextsTutorial />
     <MemoTutorial />
+    <CallbackTutorial />
     </>
   )
 }
