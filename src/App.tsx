@@ -1,4 +1,5 @@
 import EffectsTutorial from "./assets/hooks/useeffects/EffectsTutorial"
+import ImperativeHandleTutorial from "./assets/hooks/useimperativehandles/ImperativeHandleTutorial"
 import LayoutEffectTutorial from "./assets/hooks/useLayoutEffects/LayoutEffectTutoria"
 import ReduceTutorial from "./assets/hooks/usereduces/ReduceTutorial"
 import RefsTutorial from "./assets/hooks/useRefs/RefsTutorial"
@@ -15,6 +16,7 @@ function App() {
     <EffectsTutorial />
     <RefsTutorial />
     <LayoutEffectTutorial />
+    <ImperativeHandleTutorial />
     </>
   )
 }
