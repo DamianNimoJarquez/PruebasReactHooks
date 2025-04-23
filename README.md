@@ -67,6 +67,20 @@ En el tutorial se va a llamar dos componentes y en uno de ellos se va a mostrar 
 
 Se ha cambiado el tutorial para añadir los tipos necesarios para typescript. Además hay que crear un context por cada useState que tengamos y q queramos pasar a los hijos para hacer modificaciones.
 
+## UseMemo
+
+Para mejorar el rendimiento cuando se tiene mucha computación.
+
+En el tutorial se implemta un algoritmo para determinar cuál es el nombre más largo en el array.
+
+En el ejemplo la función para determinar se ejecutará cada vez que se renderice un elemento.
+
+Para evitar esto, en vez de llamar a la función directamente usaremos el ***useMemo*** que recibe dos parámetros
+* El primero es la función que se activará.
+* El segundo parámetro es las dependencias, lo que hace que se lance la función al cambiar.
+
+Fundamental para el juego para que no se repitan los algoritmos que crearé.
+
 ## Tailwind CSS
 <a id="textcss1"></a>
 

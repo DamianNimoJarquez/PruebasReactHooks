@@ -2,6 +2,7 @@ import UseContextsTutorial from "./assets/hooks/usecontext/UseContextsTutorial"
 import EffectsTutorial from "./assets/hooks/useeffects/EffectsTutorial"
 import ImperativeHandleTutorial from "./assets/hooks/useimperativehandles/ImperativeHandleTutorial"
 import LayoutEffectTutorial from "./assets/hooks/useLayoutEffects/LayoutEffectTutoria"
+import MemoTutorial from "./assets/hooks/usememo/MemoTutorial"
 import ReduceTutorial from "./assets/hooks/usereduces/ReduceTutorial"
 import RefsTutorial from "./assets/hooks/useRefs/RefsTutorial"
 import StateTutorial from "./assets/hooks/usestates/StateTutorial"
@@ -19,6 +20,7 @@ function App() {
     <LayoutEffectTutorial />
     <ImperativeHandleTutorial />
     <UseContextsTutorial />
+    <MemoTutorial />
     </>
   )
 }
