@@ -59,6 +59,13 @@ En el código lo que se hace es comprobar esto. con ***useEffect*** se cambia el
 
 Nos permite usar funciones de los complnentes hijos, esto puede ser interesante. Explorar más detalles.
 
+## UseContext
+
+Context API:
+
+En el tutorial se va a llamar dos componentes y en uno de ellos se va a mostrar el nombre.
+
+Se ha cambiado el tutorial para añadir los tipos necesarios para typescript. Además hay que crear un context por cada useState que tengamos y q queramos pasar a los hijos para hacer modificaciones.
 
 ## Tailwind CSS
 <a id="textcss1"></a>
